@@ -18,8 +18,9 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-history-substring-search
 
+antigen apply
+
 # Histroy Substring Search Options.
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
-
-antigen apply
+HISTORY_SUBSTRING_SEARCH_ENGINE_UNIQUE=1
