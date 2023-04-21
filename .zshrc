@@ -6,7 +6,7 @@ export SPACESHIP_DIR_TRUNC=0
 export SPACESHIP_RPROMPT_ORDER=(
   git_status
 )
-export SPACESHIP_CHAR_SYMBOL_ROOT="😈"
+export SPACESHIP_CHAR_SYMBOL="😈"
 
 # Plugins.asdfasdf
 plugins=(git)
