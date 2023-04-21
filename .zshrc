@@ -23,4 +23,4 @@ antigen apply
 # Histroy Substring Search Options.
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
-HISTORY_SUBSTRING_SEARCH_ENGINE_UNIQUE=1
+HISTORY_SUBSTRING_SEARCH_ENSURE_UNIQUE=1
