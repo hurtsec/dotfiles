@@ -29,5 +29,4 @@ cd $FONT_DIR
 ./install.sh
 
 echo "Installing notify-send"
-sudo apt update
 sudo apt-get install libnotify4 -y
