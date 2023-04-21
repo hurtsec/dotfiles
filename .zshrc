@@ -1,3 +1,4 @@
+source ~/antigen.zsh
 export ZSH="${HOME}/.oh-my-zsh"
 
 # Theme.
@@ -9,7 +10,10 @@ export SPACESHIP_RPROMPT_ORDER=(
 export SPACESHIP_CHAR_SYMBOL="😈 ➜"
 export SPACESHIP_CHAR_SUFFIX=" "
 
-# Plugins.asdfasdf
-plugins=(git)
+# Plugins.
+antigen bundle git
+antigen bundle command-not-found
+antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle zsh-users/zsh-autosuggestions
 
-source $ZSH/oh-my-zsh.sh
+antigen apply
