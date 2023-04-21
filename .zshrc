@@ -1,7 +1,9 @@
 source ~/antigen.zsh
 
+antigen use oh-my-zsh
+
 # Theme.
-antigen theme spaceship
+antigen theme https://github.com/denysdovhan/spaceship-zsh-theme spaceship
 export SPACESHIP_DIR_TRUNC=0
 export SPACESHIP_RPROMPT_ORDER=(
   git_status
