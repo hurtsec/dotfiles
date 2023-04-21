@@ -14,6 +14,9 @@ export SPACESHIP_CHAR_SUFFIX=" "
 # Plugins.
 antigen bundle git
 antigen bundle command-not-found
+antigen bundle copydir
+antigen bundle copyfile
+antigen bundle copybuffer
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle "MichaelAquilina/zsh-you-should-use"
