@@ -27,3 +27,7 @@ FONT_DIR="$HOME/.fonts"
 git clone https://github.com/powerline/fonts.git $FONT_DIR --depth=1
 cd $FONT_DIR
 ./install.sh
+
+echo "Installing notify-send"
+sudo apt update
+sudo apt-get install libnotify4
